@@ -25,6 +25,5 @@ public class Collatz {
             System.out.println(initial);
             t--;
         }
-        sc.close();
     }
 }

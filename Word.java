@@ -8,7 +8,8 @@ public class Word {
         int lowerCount = 0;
 
         for(int i=0; i<s.length(); i++){
-            if(Character.isUpperCase(i)){
+            char ch = s.charAt(i);
+            if(ch >= 'A' && ch <= 'Z'){
                 upperCount++;
             }else{
                 lowerCount++;
