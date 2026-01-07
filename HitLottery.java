@@ -4,11 +4,11 @@ public class HitLottery {
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
         int[] bills = {100, 20, 10, 5, 1};
-        long count = 0;
+        long cnt = 0;
         for (int bill : bills) {
-            count += n / bill;
+            cnt += n / bill;
             n %= bill;
         }
-        System.out.println(count);
+        System.out.println(cnt);
     }
 }
