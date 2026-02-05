@@ -13,6 +13,7 @@ public class SpellCheck {
                 System.out.println("NO");
                 continue;
             }
+            //hey
             char[] current = s.toCharArray();
             Arrays.sort(current);
             if (Arrays.equals(current, target)) {
