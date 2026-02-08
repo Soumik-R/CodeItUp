@@ -18,9 +18,9 @@ public class Seats {
                 boolean canSit = true;
                 if (i > 0 && seats[i - 1] == '1') canSit = false;
                 if (i < n - 1 && seats[i + 1] == '1') canSit = false;
-                if (canSit) {
+                if (canSit) { 
                     if (i + 1 < n && seats[i + 1] == '0') {
-                        if (i + 2 >= n || seats[i + 2] == '0 ') {
+                        if (i + 2 >= n || seats[i + 2] == '0') {
                             seats[i + 1] = '1';
                             total++;
                             i++;
