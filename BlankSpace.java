@@ -13,7 +13,7 @@ public class BlankSpace {
                 if (val == 0) {
                     currentZeros++;
                     if (currentZeros > maxZeros) {
-                        maxZeros = currentZeros;
+                        maxZeros = currentZeros;H
                     }
                 } else {
                     currentZeros = 0;
