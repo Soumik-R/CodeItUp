@@ -8,9 +8,9 @@ public class BoringApart {
                 String x = scanner.next();
                 int digit = x.charAt(0) - '0';
                 int len = x.length();
-                int previousGroupsPresses = (digit - 1) * 10;
-                int currentGroupPresses = (len * (len + 1)) / 2;
-                System.out.println(previousGroupsPresses + currentGroupPresses);
+                int prevGrp = (digit - 1) * 10;
+                int currGrp = (len * (len + 1)) / 2;
+                System.out.println(prevGrp + currGrp);
             }
         }
     }
